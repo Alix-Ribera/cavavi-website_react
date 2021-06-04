@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Navbar {
+  margin-top: 45px;
+  margin-left: -180px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Navbar li {
+  list-style-type: none;
+  float: left;
+  display: block;
+  text-decoration: none;
+  margin-right: 70px;
+  font-weight: 300;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.row {
+  display: inline-block;
+}
+h1 {
+  font-size: 90px;
+  font-family: "Over the Rainbow";
+  line-height: 110px;
+  font-weight: 300;
+  margin: 150px 0px 60px 70px;
+  display: block;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #8a4c5b;
+  text-decoration: none;
+}
+.Timetables {
+  margin-left: 77px;
+}
+.LocationIcon {
+  margin-left: 35px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+.ShopButton {
+  margin-left: 115px;
+}
+.btn-primary {
+  display: inline-block;
   color: white;
+  background-color: #8a4c5b;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  border-color: #8a4c5b;
+  margin: 60px 0px 0px 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.btn-primary:hover {
+  color: #8a4c5b;
+  background-color: white;
+  border-color: #8a4c5b;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MainImg img {
+  width: 855px;
+  height: 1200px;
+  margin: -900px 0px 0px 625px;
 }
