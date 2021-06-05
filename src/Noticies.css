@@ -1,0 +1,13 @@
+.NewsCards {
+  margin: 200px 200px 200px 0px;
+  border-color: #8a4c5b;
+}
+.card {
+  border-color: #8a4c5b;
+}
+.card img {
+  height: 200px;
+}
+.InaugurationCard img {
+  height: 400px;
+}

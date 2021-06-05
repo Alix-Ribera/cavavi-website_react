@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 export default function Footer() {
   return (
     <div className="Container">
@@ -13,7 +14,8 @@ export default function Footer() {
           Instagram
         </a>
         <div className="Author">
-          Codi realitzat per <a href="#">Alix Simo</a> 2021
+          Codi realitzat per{" "}
+          <a href="https://github.com/Alix-Ribera">Alix Simo</a> 2021
         </div>
       </div>
     </div>

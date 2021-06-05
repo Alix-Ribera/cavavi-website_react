@@ -1,0 +1,18 @@
+.Footer {
+  margin-right: 190px;
+  border-top: 1px solid rgba(0, 0, 0, 0.36);
+}
+.FooterContent {
+  margin: 40px 0px 40px 0px;
+}
+.FooterContent a {
+  margin-left: 60px;
+}
+.FooterContent .Author {
+  display: block;
+  text-align: center;
+  margin: -20px 0px 0px 750px;
+}
+.FooterContent .Author a {
+  margin-left: 0px;
+}

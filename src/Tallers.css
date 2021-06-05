@@ -1,0 +1,45 @@
+.TallerImg-1 {
+  height: 375px;
+}
+.TallerImg {
+  height: 375px;
+}
+.TallerTitle {
+  margin: 200px 300px 300px 200px;
+}
+.TallerParagraph {
+  text-align: justify;
+  margin: 0px 200px 150px -20px;
+}
+.col-6 .TallerButton {
+  margin: 30px 20px 0px 100px;
+  border-color: #8a4c5b;
+  background-color: white;
+  color: #8a4c5b;
+  padding: 25px;
+}
+.col-6 .TallerButton:hover {
+  background-color: #8a4c5b;
+  color: white;
+  border-color: white;
+}
+.TallerTopBox {
+  border: 1px solid #8a4c5b;
+  border-radius: 50px;
+  margin: 150px 450px 150px 250px;
+  padding: 70px 50px;
+}
+.TallerTopBoxParagraph {
+  text-align: justify;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+h3 {
+  font-family: "Over the Rainbow";
+  font-size: 30px;
+  margin: 0px 0px 150px -200px;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}

@@ -1,0 +1,14 @@
+h2 {
+  font-family: "Over the Rainbow";
+  font-size: 50px;
+  margin: 150px 0px 0px 240px;
+}
+.UsBox p {
+  text-align: justify;
+  margin: 100px 480px 100px 250px;
+}
+.UsBox img {
+  height: 500px;
+  width: auto;
+  margin: 0px 0px 100px 250px;
+}

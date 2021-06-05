@@ -27,22 +27,18 @@ h1 {
   margin: 150px 0px 60px 70px;
   display: block;
 }
+.Main p {
+  margin: 50px 0px 0px 105px;
+  line-height: 25px;
+}
 a {
   color: black;
   text-decoration: none;
+  margin: 20px 0px 0px 85px;
 }
 a:hover {
   color: #8a4c5b;
   text-decoration: none;
-}
-.Timetables {
-  margin-left: 77px;
-}
-.LocationIcon {
-  margin-left: 35px;
-  height: 40px;
-  width: 40px;
-  display: inline-block;
 }
 .ShopButton {
   margin-left: 115px;
@@ -51,11 +47,12 @@ a:hover {
   display: inline-block;
   color: white;
   background-color: #8a4c5b;
-  padding: 15px;
+  padding: 20px 15px;
   border-radius: 20px;
   font-size: 12px;
-  border-color: #8a4c5b;
+  border: 1px solid #8a4c5b;
   margin: 60px 0px 0px 20px;
+  font-family: "IBM Plex Mono", monospace;
 }
 .btn-primary:hover {
   color: #8a4c5b;
@@ -64,6 +61,6 @@ a:hover {
 }
 .MainImg img {
   width: 855px;
-  height: 1200px;
+  height: 1150px;
   margin: -900px 0px 0px 625px;
 }
