@@ -5,7 +5,7 @@ body {
   font-weight: 300;
 }
 .Navbar {
-  margin-top: 45px;
+  margin-top: -80px;
   margin-left: -180px;
 }
 .Navbar li {
@@ -16,16 +16,13 @@ body {
   margin-right: 70px;
   font-weight: 300;
 }
-.row {
-  display: inline-block;
-}
 h1 {
   font-size: 90px;
   font-family: "Over the Rainbow";
   line-height: 110px;
   font-weight: 300;
-  margin: 150px 0px 60px 70px;
-  display: block;
+  margin: 150px 900px 60px 70px;
+  padding-top: 150px;
 }
 .Main p {
   margin: 50px 0px 0px 105px;
